@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>SAYFA İÇİ CSS</title>
+		<style type="text/CSS">
+			/* BURASI YORUM SATIRIDIR DİKKATE ALINMAZ
+			SAYFA İÇİ
+			STİLLERİ TANIMLAYORUZ */
+			p {
+				color:red;
+			}
+			div{
+				font-size: 24px;
+				color:blue;
+				font-weight: bold;
+			}
+			#stil3{ /* # işareti ile yapılan tanımlamalar id ile çağrılır*/
+				color:aqua;
+				font-family:"comic sans ms";
+				border:solid 1px blue;
+				border-radius:10px;
+			}
+			.stil1{
+				color:black; /* en son bu renk tanımlandığıu için stil1 ile çağrılan paragraf siyah olacak*/
+				font-family:calibri;
+				font-size:30pt;
+				text-decoration:underline;
+				background-color:pink;
+			}
+			.stil2{
+				color:brown;
+				font-style:italic;
+				font-family:"century gothic";
+			}
+			span{
+				background-color:aquamarine;
+			}
+
+		</style>
+	</head>
+	<body>
+		<span>BU BİZİM İLK SPANIMIZ</span> <br>
+		<p class="stil1">DENEME PARAGRAF</p>
+		<p class="stil1 stil2">DENEME İKİNCİ PARAGRAF</p>
+		<p class="stil1" id="stil3">DENEME ÜÇÜNCÜ PARAGRAF</p>
+		<div class="stil2">DENEME DİV</div>
+		<div>DENEME İKİNCİ DİV</div>
+		<div>DENEME ÜÇÜNCÜ DİV <span>ÜÇÜNCÜ DİV İÇİNDEKİ SPAN</span></div>
+	 
+	</body>
+</html>
